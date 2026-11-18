@@ -1,56 +1,275 @@
-# Penghapusan Akun Mandar Verse 2.0
 
-**Mandar Verse 2.0** merupakan aplikasi digital Museum Mandar Majene yang dikembangkan oleh **Wawan Firgiawan**.
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Kami menghargai privasi pengguna. Setiap pengguna berhak mengajukan permintaan penghapusan akun beserta data pribadi yang terkait dengan akun Mandar Verse 2.0.
+    <title>Penghapusan Akun - Mandar Verse 2.0</title>
 
-## 1. Cara Mengajukan Penghapusan Akun
+    <meta name="description" content="Informasi dan prosedur pengajuan penghapusan akun Mandar Verse 2.0, aplikasi digital Museum Mandar Majene.">
 
-Untuk mengajukan penghapusan akun, pengguna dapat mengikuti langkah-langkah berikut:
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-1. Kirim email ke **wawanfirgiawan9@gmail.com**.
-2. Gunakan subjek email: **Permintaan Penghapusan Akun Mandar Verse 2.0**.
-3. Cantumkan alamat email atau identitas akun yang terdaftar di aplikasi.
-4. Tim pengelola akan melakukan verifikasi untuk memastikan bahwa permintaan berasal dari pemilik akun yang bersangkutan.
-5. Setelah verifikasi berhasil, permintaan penghapusan akun akan diproses.
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7f7;
+            color: #263238;
+            line-height: 1.7;
+        }
 
-Pengguna tidak perlu memberikan kata sandi akun ketika mengajukan permintaan penghapusan.
+        header {
+            background: #007979;
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
 
-## 2. Data yang Akan Dihapus
+        header h1 {
+            font-size: 27px;
+            margin-bottom: 8px;
+        }
 
-Setelah permintaan disetujui, data pribadi yang terkait dengan akun akan dihapus, meliputi:
+        header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
 
-- Informasi akun, seperti nama dan alamat email.
-- Data profil pengguna.
-- Data aktivitas penggunaan aplikasi yang dapat dikaitkan dengan akun.
-- Data lain yang tidak lagi diperlukan untuk operasional aplikasi atau kewajiban hukum.
+        main {
+            max-width: 850px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
 
-## 3. Data yang Mungkin Tetap Disimpan
+        .content {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+        }
 
-Beberapa data tertentu mungkin tetap disimpan apabila diperlukan untuk keperluan administrasi museum, pencatatan transaksi, audit, atau pemenuhan kewajiban hukum.
+        h2 {
+            color: #007979;
+            font-size: 19px;
+            margin-top: 27px;
+            margin-bottom: 12px;
+        }
 
-Data tersebut dapat mencakup:
+        h2:first-child {
+            margin-top: 0;
+        }
 
-- Riwayat transaksi pemesanan tiket museum.
-- Bukti pembayaran tiket.
-- Catatan transaksi yang diperlukan untuk pertanggungjawaban administrasi.
+        p {
+            margin-bottom: 13px;
+        }
 
-Data yang wajib dipertahankan tidak akan digunakan untuk tujuan lain di luar kebutuhan penyimpanan tersebut dan akan dihapus setelah tidak lagi diperlukan.
+        ol, ul {
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
 
-**Periode penyimpanan:** Data transaksi dan bukti pembayaran yang wajib disimpan akan dipertahankan selama masa penyimpanan yang diwajibkan oleh ketentuan hukum atau administrasi yang berlaku. Data lainnya akan dihapus setelah proses penghapusan akun selesai.
+        li {
+            margin-bottom: 8px;
+        }
 
-## 4. Waktu Pemrosesan
+        .contact {
+            background: #eef8f7;
+            border-left: 4px solid #007979;
+            padding: 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
 
-Permintaan penghapusan akun akan diproses setelah identitas pemohon berhasil diverifikasi.
+        .contact a {
+            color: #007979;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
-Pengguna akan memperoleh informasi melalui email apabila proses penghapusan telah selesai atau apabila terdapat data tertentu yang masih harus dipertahankan berdasarkan ketentuan yang berlaku.
+        .contact a:hover {
+            text-decoration: underline;
+        }
 
-## 5. Kontak Pengelola
+        .note {
+            background: #fff8e9;
+            border-left: 4px solid #ff853e;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
 
-Apabila pengguna memiliki pertanyaan atau ingin mengajukan penghapusan akun, silakan menghubungi:
+        footer {
+            text-align: center;
+            padding: 25px 15px;
+            color: #718080;
+            font-size: 13px;
+        }
 
-**Nama Aplikasi:** Mandar Verse 2.0  
-**Pengelola/Developer:** Wawan Firgiawan  
-**Email:** wawanfirgiawan9@gmail.com
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
 
-Dengan mengajukan permintaan melalui alamat email tersebut, pengguna dapat meminta penghapusan akun dan data pribadi yang terkait dengan penggunaan Mandar Verse 2.0.
+            .content {
+                padding: 23px 19px;
+            }
+
+            main {
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Penghapusan Akun</h1>
+        <p>Mandar Verse 2.0 – Museum Mandar Majene</p>
+    </header>
+
+    <main>
+        <div class="content">
+
+            <p>
+                Mandar Verse 2.0 merupakan aplikasi digital
+                Museum Mandar Majene yang dikembangkan oleh
+                <strong>Wawan Firgiawan</strong>.
+            </p>
+
+            <p>
+                Kami menghargai privasi pengguna. Setiap pengguna
+                berhak mengajukan permintaan penghapusan akun
+                beserta data pribadi yang terkait dengan akun
+                Mandar Verse 2.0.
+            </p>
+
+            <h2>1. Cara Mengajukan Penghapusan Akun</h2>
+
+            <p>
+                Untuk mengajukan penghapusan akun, pengguna dapat
+                mengikuti langkah-langkah berikut:
+            </p>
+
+            <ol>
+                <li>
+                    Kirim email ke
+                    <strong>wawanfirgiawan9@gmail.com</strong>.
+                </li>
+                <li>
+                    Gunakan subjek email:
+                    <strong>Permintaan Penghapusan Akun Mandar Verse 2.0</strong>.
+                </li>
+                <li>
+                    Cantumkan alamat email atau identitas akun
+                    yang terdaftar di aplikasi.
+                </li>
+                <li>
+                    Tim pengelola akan melakukan verifikasi
+                    untuk memastikan bahwa permintaan berasal
+                    dari pemilik akun yang bersangkutan.
+                </li>
+                <li>
+                    Setelah verifikasi berhasil, permintaan
+                    penghapusan akun akan diproses.
+                </li>
+            </ol>
+
+            <p>
+                Pengguna tidak perlu memberikan kata sandi akun
+                ketika mengajukan permintaan penghapusan.
+            </p>
+
+            <h2>2. Data yang Akan Dihapus</h2>
+
+            <p>
+                Setelah permintaan disetujui, data pribadi yang
+                terkait dengan akun akan dihapus, meliputi:
+            </p>
+
+            <ul>
+                <li>Informasi akun, seperti nama dan alamat email.</li>
+                <li>Data profil pengguna.</li>
+                <li>Data aktivitas penggunaan aplikasi yang dapat dikaitkan dengan akun.</li>
+                <li>Data lain yang tidak lagi diperlukan untuk operasional aplikasi atau kewajiban hukum.</li>
+            </ul>
+
+            <h2>3. Data yang Mungkin Tetap Disimpan</h2>
+
+            <p>
+                Beberapa data tertentu mungkin tetap disimpan
+                apabila diperlukan untuk keperluan administrasi
+                museum, pencatatan transaksi, audit, atau
+                pemenuhan kewajiban hukum.
+            </p>
+
+            <p>Data tersebut dapat mencakup:</p>
+
+            <ul>
+                <li>Riwayat transaksi pemesanan tiket museum.</li>
+                <li>Bukti pembayaran tiket.</li>
+                <li>Catatan transaksi yang diperlukan untuk pertanggungjawaban administrasi.</li>
+            </ul>
+
+            <p>
+                Data yang wajib dipertahankan tidak akan digunakan
+                untuk tujuan lain di luar kebutuhan penyimpanan
+                tersebut dan akan dihapus setelah tidak lagi diperlukan.
+            </p>
+
+            <div class="note">
+                <strong>Periode penyimpanan:</strong>
+                Data transaksi dan bukti pembayaran yang wajib
+                disimpan akan dipertahankan selama masa penyimpanan
+                yang diwajibkan oleh ketentuan hukum atau administrasi
+                yang berlaku. Data lainnya akan dihapus setelah
+                proses penghapusan akun selesai.
+            </div>
+
+            <h2>4. Waktu Pemrosesan</h2>
+
+            <p>
+                Permintaan penghapusan akun akan diproses setelah
+                identitas pemohon berhasil diverifikasi.
+            </p>
+
+            <p>
+                Pengguna akan memperoleh informasi melalui email
+                apabila proses penghapusan telah selesai atau
+                apabila terdapat data tertentu yang masih harus
+                dipertahankan berdasarkan ketentuan yang berlaku.
+            </p>
+
+            <h2>5. Kontak Pengelola</h2>
+
+            <p>
+                Apabila pengguna memiliki pertanyaan atau ingin
+                mengajukan penghapusan akun, silakan menghubungi:
+            </p>
+
+            <div class="contact">
+                <p><strong>Nama Aplikasi:</strong> Mandar Verse 2.0</p>
+                <p><strong>Pengelola/Developer:</strong> Wawan Firgiawan</p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:wawanfirgiawan9@gmail.com">
+                        wawanfirgiawan9@gmail.com
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Mandar Verse 2.0.
+        Museum Mandar Majene.
+    </footer>
+
+</body>
+</html>
